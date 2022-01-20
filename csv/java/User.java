@@ -48,16 +48,15 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", ssn='" + ssn + '\'' +
+        return "User " +
+                "lastName= " + lastName + '\'' +
+                ", firstName= " + firstName + '\'' +
+                ", ssn= " + ssn + '\'' +
                 ", test1=" + test1 +
                 ", test2=" + test2 +
                 ", test3=" + test3 +
                 ", test4=" + test4 +
                 ", finalTest=" + finalTest +
-                ", grade='" + grade + '\'' +
-                '}';
+                ", grade= " + grade + '\'';
     }
 }
